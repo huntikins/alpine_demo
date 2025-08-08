@@ -37,6 +37,8 @@ The demo illustrates how Alpine.js can be used to:
 
 To avoid network issues during the session, JSON data is also included locally as a fallback.
 
+Final app state can ve viewed by switching to the `final` branch
+
 
 ## 📂 Project Structure
 
