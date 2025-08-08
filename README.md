@@ -47,7 +47,9 @@ alpine_demo/
 ├── index.html # The main HTML file
 ├── products.json # Local fallback of product data from dummyjson
 ├── main.ts # Main entrypoint for browser JS, registers Alpine to the window and registers other components
-├── components/product.ts # Contains the Alpine Context used for adding reactivity
+├── components/product/product.ts # Contains the Alpine Context used for the product list
+├── components/cart/cart.ts # Contains the Alpine Context used for adding items to a cart
+├── components/modal/modal.ts # Contains the Alpine Context used for triggerng the modal with dynamic content
 ```
 
 
