@@ -2,4 +2,6 @@ import type { AlpineComponent } from "alpinejs";
 import type { ICartComponent } from "./cart.interface";
 
 // Cart Component Context
-export const cartComponent = () => ({});
+export const cartComponent = (): AlpineComponent<ICartComponent> => ({
+    count: 0
+});

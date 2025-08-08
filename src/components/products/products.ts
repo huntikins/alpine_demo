@@ -4,4 +4,6 @@ import type { IProductComponent } from "./products.interface";
 import ProductJSON from "../../products.json";
 
 // Products Component Context
-export const productsComponent = () => ({});
+export const productsComponent = (): AlpineComponent<IProductComponent> => ({
+    products: ProductJSON
+});

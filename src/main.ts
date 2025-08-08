@@ -5,6 +5,9 @@ import { modalComponent } from "./components/modal/modal";
 
 document.addEventListener("alpine:init", () => {
   // Register Components
+  Alpine.data('products', productsComponent);
+  Alpine.data('cart', cartComponent);
+  Alpine.data('modal', modalComponent);
 });
 
 // Register Alpine to the window
