@@ -1,4 +1,7 @@
 import Alpine from "alpinejs";
+import { productsComponent } from "./components/products/products";
+import { cartComponent } from "./components/cart/cart";
+import { modalComponent } from "./components/modal/modal";
 
 document.addEventListener("alpine:init", () => {
   // Register Components
